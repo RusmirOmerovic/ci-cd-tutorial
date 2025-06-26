@@ -1,2 +1,20 @@
 node_modules
 .env
+# Service Account Keys (typisch bei GCP-Projekten)
+*.json
+!package.json
+
+# Optional: Ignoriere z. B. Firebase-, GCP-, AWS-Credentials
+*.key
+*.pem
+*.p12
+credentials.json
+service-account.json
+
+# Falls du Build-Artefakte erzeugst:
+dist/
+build/
+
+# Falls Docker verwendet wird:
+*.tar
+.dockerignore
