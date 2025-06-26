@@ -1,5 +1,0 @@
-key.json
-*.json
-.env
-secrets/
-node_modules
